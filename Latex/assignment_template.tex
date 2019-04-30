@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{braket}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[noend]{algorithm2e}
+\usepackage[normalem]{ulem} % for strikeout line
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+% \usepackage{epstopdf}
+
+%-------------------------------------------------------%
+\newcounter{pcounter}                                   %
+\newenvironment{problem}                                %
+{                                                       %
+    \color{gray}                                        %
+    \stepcounter{pcounter}                              %
+    \textbf{\arabic{pcounter}.}                         %
+}{}                                                     %
+\newenvironment{solution}                               %
+{\textbf{Solution:} }{$\blacksquare$}                   %
+%-------------------------------------------------------%
+\newcommand{\tab}{\ \ \ \ }                             %
+\newcommand{\leadto}{\Rightarrow}                       %
+\newcommand{\domR}{\mathcal{R}}                         %
+\newcommand{\domS}{\mathbb{S}}                          %
+\newcommand{\Gaussian}{\mathcal{N}}                     %
+\newcommand{\IdenMat}{\textit{I}}                       %
+\newcommand{\abss}[1]{\| #1 \|}                         %
+\newcommand{\tr}[1]{\textbf{tr}(#1)}                    %
+\newcommand{\vecOne}{\textbf{1}}                        %
+\renewcommand{\vec}[1]{\mathbf{#1}}                     %
+%-------------------------------------------------------%
+
+\begin{document}
+    %------------------- The Title -------------------%
+    \parindent 0in
+    \parskip 1em
+    \title{Assignment Solution Sheet}
+    \author{HONG Yuncong, 3030058647}
+    \maketitle
+
+    \begin{section}{Problem 1}
+        \setcounter{pcounter}{0}
+        % Problem Description for Problem 1 %
+
+        %=================== Problem 1.1 ===================%
+        \begin{problem}
+            % Problem Description for Problem 1.1
+        \end{problem}
+
+        \begin{solution}
+            % Answer for Problem 1.1
+        \end{solution}
+
+        %=================== Problem 1.2 ===================%
+        \begin{problem}
+            % Problem Description for Problem 1.2 %
+            \begin{enumerate}[label=\alph*)]
+                \item % a)
+                % Problem for (a)
+                \item % b)
+                % Problem for (b)
+            \end{enumerate}
+        \end{problem}
+
+        \begin{solution}
+            % Answer for Problem 1.2 %
+            \begin{enumerate}[label=\alph*)]
+                \item % a)
+                % Answer for (a)
+                \item % b)
+                % Answer for (b)
+            \end{enumerate}
+        \end{solution}
+    \end{section}
+
+\end{document}
