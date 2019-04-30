@@ -1,0 +1,29 @@
+{
+    "window.zoomLevel": 1,
+    "window.titleBarStyle": "custom",
+    "editor.fontSize": 18,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Hopscotch (TextMate Theme)",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.aux": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.out": true,
+        "**/*.pyc": true,
+        "**/*.synctex.gz": true
+    },
+    "editor.lineNumbers": "off",
+    "cSpell.userWords": [
+        "Tensorflow",
+        "Zipf",
+        "backhaul",
+        "convolutional",
+        "fronthaul"
+    ],
+    "explorer.confirmDragAndDrop": false
+}
